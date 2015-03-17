@@ -21,6 +21,7 @@
 		126F9B0818145C1C001C9808 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126F9AEA18145C1C001C9808 /* UIKit.framework */; };
 		126F9B1018145C1C001C9808 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 126F9B0E18145C1C001C9808 /* InfoPlist.strings */; };
 		126F9B1218145C1C001C9808 /* DisplayImage2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 126F9B1118145C1C001C9808 /* DisplayImage2Tests.m */; };
+		126F9B1C18145CB6001C9808 /* P9104018.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 126F9B1B18145CB6001C9808 /* P9104018.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		126F9B0D18145C1C001C9808 /* DisplayImage2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DisplayImage2Tests-Info.plist"; sourceTree = "<group>"; };
 		126F9B0F18145C1C001C9808 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		126F9B1118145C1C001C9808 /* DisplayImage2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayImage2Tests.m; sourceTree = "<group>"; };
+		126F9B1B18145CB6001C9808 /* P9104018.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = P9104018.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		126F9ADA18145C1C001C9808 = {
 			isa = PBXGroup;
 			children = (
+				126F9B1B18145CB6001C9808 /* P9104018.JPG */,
 				126F9AEC18145C1C001C9808 /* DisplayImage2 */,
 				126F9B0B18145C1C001C9808 /* DisplayImage2Tests */,
 				126F9AE518145C1C001C9808 /* Frameworks */,
@@ -230,6 +233,7 @@
 			files = (
 				126F9AFF18145C1C001C9808 /* Images.xcassets in Resources */,
 				126F9AF118145C1C001C9808 /* InfoPlist.strings in Resources */,
+				126F9B1C18145CB6001C9808 /* P9104018.JPG in Resources */,
 				126F9AFA18145C1C001C9808 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +386,7 @@
 				GCC_PREFIX_HEADER = "DisplayImage2/DisplayImage2-Prefix.pch";
 				INFOPLIST_FILE = "DisplayImage2/DisplayImage2-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -395,6 +400,7 @@
 				GCC_PREFIX_HEADER = "DisplayImage2/DisplayImage2-Prefix.pch";
 				INFOPLIST_FILE = "DisplayImage2/DisplayImage2-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

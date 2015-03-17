@@ -9,5 +9,20 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UIImageView *imageView;
+    IBOutlet UIImageView *tempImageView;
+    
+    CGPoint lastPoint;
+    CGFloat red;
+    CGFloat green;
+    CGFloat blue;
+    CGFloat brush;
+    CGFloat opacity;
+    
+    BOOL mouseSwiped;
+}
+
+-(IBAction)showImage;
 
 @end
